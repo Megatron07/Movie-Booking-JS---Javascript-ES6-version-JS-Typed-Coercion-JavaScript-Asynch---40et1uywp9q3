@@ -42,7 +42,6 @@ function code(data){
 }
 
 function showSeats(fetchedSeats){
-    
     h3Div.style.visibility = "visible";
     let bookerHolder = document.getElementById("booker-grid-holder");
     bookerHolder.innerHTML = `<div class="booking-grid"></div>
